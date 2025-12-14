@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/all.min.css">
+        
+        
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Arizonia&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSMSS | Academics</title>
+    <link rel="stylesheet" href="academics.css">
+    <style></style> <!-- Corrected the link to the CSS file -->
+</head>
+<body>
+    
+    <div class="container-fluid">
+        <h1 class="text-center mt-5 display-3 fw-bold">Academics <span class="theme-text">Section</span></h1>
+        <hr class="mx-auto mb-5 w-25">
+<p class="custom-paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas quo dicta non, omnis molestiae reprehenderit quis, officiis consequuntur <br> perferendis rerum inventore! quaerat eius tempora suscipit, fugiat quisquam odolore laudantium amet aut? Quasi rerum illum delectus, porro nobis est </p>
+
+        <section>
+            <div class="hero">
+               
+                <div class="row">
+                    <div class="col1">
+                        <h1>Lorem, ipsum dolor.</h1>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium error deserunt unde assumenda incidunt qui iusto exercitationem ad. Distinctio quasi natus amet reprehenderit, consequatur optio. Recusandae, odio fugiat? Doloribus, recusandae.</p>
+                        <button type="button" class="explore-btn">explore</button>
+                        <ul>
+                            <li class="btn active"></li>
+                            <li class="btn"></li>
+                            <li class="btn"></li>
+                        </ul>
+                    </div>
+                    <div class="col2">
+                        <img src="https://img.freepik.com/free-photo/crop-architect-opening-blueprint_23-2147710985.jpg?t=st=1716364451~exp=1716368051~hmac=7272e4f28fed2d662dfec0acf0827f967371fe673aed53ce0dccb719beb89717&w=1800" id="banner">
+                    </div>
+                </div>
+            </div>
+            <script>var btn = document.getElementsByClassName("btn");
+                var banner = document.getElementById("banner");
+                var dots = document.querySelectorAll(".btn");
+                
+                
+                function changeImage(imageSrc, activeIndex) {
+                    banner.src = imageSrc;
+                    dots.forEach(function(dot, index) {
+                        if (index === activeIndex) {
+                            dot.classList.add("active");
+                        } else {
+                            dot.classList.remove("active");
+                        }
+                    });
+                    banner.classList.add("zoom");
+                    setTimeout(function() {
+                        banner.classList.remove("zoom");
+                    }, 500);
+                }
+                
+               
+                var images = ["https://img.freepik.com/free-photo/crop-architect-opening-blueprint_23-2147710985.jpg?t=st=1716364451~exp=1716368051~hmac=7272e4f28fed2d662dfec0acf0827f967371fe673aed53ce0dccb719beb89717&w=1800", "https://media.istockphoto.com/id/862661268/photo/the-student-life.jpg?s=1024x1024&w=is&k=20&c=pudj1YXDhrykmE1c01ny1yBmzt2oh5V8oKWkrniFEXU=", "https://media.istockphoto.com/id/1589938278/photo/asian-young-man-assembling-a-robotic-car-focus-on-robotics-assembling-a-robotic-robot-to.jpg?s=1024x1024&w=is&k=20&c=_81Nwt-DlRmdzMDwIk4TwcJ2X5ozDj6-R534WJ1W8sA=",];
+                
+                
+                var activeIndex = 0;
+                
+                
+                function autoChangeImage() {
+                    changeImage(images[activeIndex], activeIndex);
+                    activeIndex = (activeIndex + 1) % images.length; 
+                }
+                
+                
+                setInterval(autoChangeImage, 3000);
+                
+                
+                btn[0].onclick = function(){
+                    changeImage(images[0], 0);
+                };
+                btn[1].onclick = function(){
+                    changeImage(images[1], 1);
+                };
+                btn[2].onclick = function(){
+                    changeImage(images[2], 2);
+                };
+                </script>
+        
+           
+        </section>
+
+
+
+
+        <div class="container-fluid">
+            <h1 class="text-center mt-5 display-3 fw-bold">Undergraduate<span class="theme-text"> Courses</span></h1>
+            <hr class="mx-auto mb-5 w-25">
+            <div class="row mb-5">
+                <div class="col-12 col-sm-6 col-md-3 m-auto">
+                    <!-- card starts here -->
+                    <div class="card shadow">
+                        <img src="https://ischoolconnect.com/blog/wp-content/uploads/2021/12/Computer-Science-Engineering-Subjects-3.jpg" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h3 class="text-center">Computer science and engineering</h3>
+                            <hr class="mx-auto w-75">
+                            <p>
+                                Adapt and implement software development life cycle.
+Learn emerging technology in Computer Science & Engineering.
+Understand personal and professional responsibilities and will observe.
+Promote the highest ethical standards.
+Pursue higher education and research.
+Solve the issues using research based knowledge.
+<p>
+                        </div>
+                    </div>
+                    <!-- card ends here -->
+                </div>
+                <!-- col ends here -->
+                <div class="col-12 col-sm-6 col-md-3 m-auto">
+                    <!-- card starts here -->
+                    <div class="card shadow">
+                        <img src="https://cdn3.careeraddict.com/uploads/article/58801/illustration-mechanical-engineer.jpg" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h3 class="text-center">Mechanical Engineering</h3>
+                            <hr class="mx-auto w-75">
+                            <p>
+                                Well equipped, and spacious laboratories.
+                                Departmental Level Students Association - MESA.
+                                Full-fledged laboratory for SAE BAJA and SAE TIFAN, vehicles designing and manufacturing.
+                                E-yantra laboratory for innovative idea projects.
+                                Regular Expert talks, Value Addition Programs and Project based learning.
+                                Professional Student Chapters of ISHRAE, IE and SAE.
+                                Exclusive Departmental Library
+                                Regular Site visits / Industrial visits/Workshops
+                                High level of involvement in NPTEL/Coursera/MOOCS courses.
+                                High end computer systems for CAD CAM laboratory ratio – 1:1
+                                Moodle e-learning facility.
+                                Center of Virtual Lab, IIT Bombay.
+                                Industry projects through GIZ & Lean Manufacturing.
+                                xclusive Departmental Library
+                                Regular Site visits / Industrial visits/Workshops
+                                High level of involvement in NPTEL/Coursera/MOOCS courses.
+                                High end computer systems for CAD CAM laboratory ratio – 1:1
+                                Moodle e-learning facility.
+                                Center of Virtual Lab, IIT Bombay.
+                                Industry projects through GIZ & Lean Manufacturin
+                            </p>
+                        </div>
+                    </div>
+                    <!-- card ends here -->
+                </div>
+                <!-- col ends here -->
+                <div class="col-12 col-sm-6 col-md-3 m-auto">
+                    <!-- card starts here -->
+                    <div class="card shadow">
+                        <img src="https://i.pinimg.com/originals/56/7a/f7/567af7272a5083597d2be695f039ccf8.jpg" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h3 class="text-center">Electrical Engineering</h3>
+                            <hr class="mx-auto w-75">
+                            <p>
+                                Adapt and implement software development life cycle.
+                                Learn emerging technology in Computer Science & Engineering.
+                                Understand personal and professional responsibilities and will observe.
+                                Promote the highest ethical standards.
+                                Pursue higher education and research.
+                                Solve the issues using research based knowledge.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- card ends here -->
+                </div>
+                
+    
+
+                    <div class="row mb-5">
+                        <div class="col-12 col-sm-6 col-md-3 m-auto">
+                            <!-- card starts here -->
+                            <div class="card shadow">
+                                <img src="https://blogassets.leverageedu.com/blog/wp-content/uploads/2019/12/23193549/Mechanical-Engineering.jpg" alt="" class="card-img-top">
+                                <div class="card-body">
+                                    <h3 class="text-center">Civil Engineering</h3>
+                                    <hr class="mx-auto w-75">
+                                    <p>
+                                        Adapt and implement software development life cycle.
+        Learn emerging technology in Computer Science & Engineering.
+        Understand personal and professional responsibilities and will observe.
+        Promote the highest ethical standards.
+        Pursue higher education and research.
+        Solve the issues using research based knowledge.
+        <p>
+                                </div>
+                            </div>
+                            <!-- card ends here -->
+                        </div>
+                        <!-- col ends here -->
+                        <div class="col-12 col-sm-6 col-md-3 m-auto">
+                            <!-- card starts here -->
+                            <div class="card shadow">
+                                <img src="https://media.istockphoto.com/id/1249713244/vector/school-robotics-project.jpg?s=612x612&w=0&k=20&c=uT9qJH1nbBFIv85nJFsUlN-xzmG4BFqpXYmENt0cjNQ=" alt="" class="card-img-top">
+                                <div class="card-body">
+                                    <h3 class="text-center">AI&DS Engineering</h3>
+                                    <hr class="mx-auto w-75">
+                                    <p>
+                                        Well equipped, and spacious laboratories.
+                                        Departmental Level Students Association - MESA.
+                                        Full-fledged laboratory for SAE BAJA and SAE TIFAN, vehicles designing and manufacturing.
+                                        E-yantra laboratory for innovative idea projects.
+                                        Regular Expert talks, Value Addition Programs and Project based learning.
+                                        Professional Student Chapters of ISHRAE, IE and SAE.
+                                        Exclusive Departmental Library
+                                        Regular Site visits / Industrial visits/Workshops
+                                        High level of involvement in NPTEL/Coursera/MOOCS courses.
+                                        High end computer systems for CAD CAM laboratory ratio – 1:1
+                                        Moodle e-learning facility.
+                                        Center of Virtual Lab, IIT Bombay.
+                                        Industry projects through GIZ & Lean Manufacturing.
+                                        xclusive Departmental Library
+                                        Regular Site visits / Industrial visits/Workshops
+                                        High level of involvement in NPTEL/Coursera/MOOCS courses.
+                                        High end computer systems for CAD CAM laboratory ratio – 1:1
+                                        Moodle e-learning facility.
+                                        Center of Virtual Lab, IIT Bombay.
+                                        Industry projects through GIZ & Lean Manufacturin
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- card ends here -->
+                        </div>
+                        <!-- col ends here -->
+                        <div class="col-12 col-sm-6 col-md-3 m-auto">
+                            <!-- card starts here -->
+                            <div class="card shadow">
+                                <img src="https://static.vecteezy.com/system/resources/thumbnails/020/534/395/small_2x/man-controlling-factory-robot-with-laptop-vector.jpg" alt="" class="card-img-top">
+                                <div class="card-body">
+                                    <h3 class="text-center">ECE Engineering</h3>
+                                    <hr class="mx-auto w-75">
+                                    <p>
+                                        Adapt and implement software development life cycle.
+                                        Learn emerging technology in Computer Science & Engineering.
+                                        Understand personal and professional responsibilities and will observe.
+                                        Promote the highest ethical standards.
+                                        Pursue higher education and research.
+                                        Solve the issues using research based knowledge.
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- card ends here -->
+                        </div>
+                        
+            
+
+                        <div class="container-fluid">
+                            <h1 class="text-center mt-5 display-3 fw-bold">Post-graduate  <span class="theme-text">Courses</span></h1>
+                            <hr class="mx-auto mb-5 w-25">
+                            <div class="row mb-5">
+                                <div class="col-12 col-sm-6 col-md-3 m-auto">
+                                    <!-- card starts here -->
+                                    <div class="card shadow">
+                                        <img src="https://media.licdn.com/dms/image/C5612AQEoGiflQSxJGQ/article-cover_image-shrink_600_2000/0/1599494235847?e=2147483647&v=beta&t=bGC3G8pTAuek_n79BW1LmC8SZaDLUefeL6vVRzk1fNw" alt="" class="card-img-top">
+                                        <div class="card-body">
+                                            <h3 class="text-center">Computer science and engineering</h3>
+                                            <hr class="mx-auto w-75">
+                                            <p>
+                                                Adapt and implement software development life cycle.
+                Learn emerging technology in Computer Science & Engineering.
+                Understand personal and professional responsibilities and will observe.
+                Promote the highest ethical standards.
+                Pursue higher education and research.
+                Solve the issues using research based knowledge.
+                <p>
+                                        </div>
+                                    </div>
+                                    <!-- card ends here -->
+                                </div>
+                                <!-- col ends here -->
+                                <div class="col-12 col-sm-6 col-md-3 m-auto">
+                                    <!-- card starts here -->
+                                    <div class="card shadow">
+                                        <img src="https://www.kansaz.in/hubfs/Canada-for-Mechanical-Engineers---590.jpg" alt="" class="card-img-top">
+                                        <div class="card-body">
+                                            <h3 class="text-center">Mechanical Engineering</h3>
+                                            <hr class="mx-auto w-75">
+                                            <p>
+                                                Well equipped, and spacious laboratories.
+                                                Departmental Level Students Association - MESA.
+                                                Full-fledged laboratory for SAE BAJA and SAE TIFAN, vehicles designing and manufacturing.
+                                                E-yantra laboratory for innovative idea projects.
+                                                Regular Expert talks, Value Addition Programs and Project based learning.
+                                                Professional Student Chapters of ISHRAE, IE and SAE.
+                                                Exclusive Departmental Library
+                                                Regular Site visits / Industrial visits/Workshops
+                                                High level of involvement in NPTEL/Coursera/MOOCS courses.
+                                                High end computer systems for CAD CAM laboratory ratio – 1:1
+                                                Moodle e-learning facility.
+                                                Center of Virtual Lab, IIT Bombay.
+                                                Industry projects through GIZ & Lean Manufacturing.
+                                                xclusive Departmental Library
+                                                Regular Site visits / Industrial visits/Workshops
+                                                High level of involvement in NPTEL/Coursera/MOOCS courses.
+                                                High end computer systems for CAD CAM laboratory ratio – 1:1
+                                                Moodle e-learning facility.
+                                                Center of Virtual Lab, IIT Bombay.
+                                                Industry projects through GIZ & Lean Manufacturin
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <!-- card ends here -->
+                                </div>
+                                <!-- col ends here -->
+                                <div class="col-12 col-sm-6 col-md-3 m-auto">
+                                    <!-- card starts here -->
+                                    <div class="card shadow">
+                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEfYMs9osCr1qeS5DN3MQq8kp_JQA4bxt3S8P-G9S4rqfTq2X_52WTlW2FITa8bXPl7bI&usqp=CAU" alt="" class="card-img-top">
+                                        <div class="card-body">
+                                            <h3 class="text-center">Electrical Engineering</h3>
+                                            <hr class="mx-auto w-75">
+                                            <p>
+                                                Adapt and implement software development life cycle.
+                                                Learn emerging technology in Computer Science & Engineering.
+                                                Understand personal and professional responsibilities and will observe.
+                                                Promote the highest ethical standards.
+                                                Pursue higher education and research.
+                                                Solve the issues using research based knowledge.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <!-- card ends here -->
+                                </div>
+                                
+                                <div class="row mb-5">
+                                    <div class="col-12 col-sm-6 col-md-3 m-auto">
+                                        <!-- card starts here -->
+                                        <div class="card shadow">
+                                            <img src="https://previews.123rf.com/images/sabelskaya/sabelskaya2001/sabelskaya200100088/137965310-civil-engineer-or-construction-architect-cartoon-characters-group-flat-vector-illustration-on.jpg" alt="" class="card-img-top">
+                                            <div class="card-body">
+                                                <h3 class="text-center">Civil Engineering</h3>
+                                                <hr class="mx-auto w-75">
+                                                <p>
+                                                    Adapt and implement software development life cycle.
+                    Learn emerging technology in Computer Science & Engineering.
+                    Understand personal and professional responsibilities and will observe.
+                    Promote the highest ethical standards.
+                    Pursue higher education and research.
+                    Solve the issues using research based knowledge.
+                    <p>
+                                            </div>
+                                        </div>
+                                        <!-- card ends here -->
+                                    </div>
+                                    <!-- col ends here -->
+                                    <div class="col-12 col-sm-6 col-md-3 m-auto">
+                                        <!-- card starts here -->
+                                        <div class="card shadow">
+                                            <img src="https://media.istockphoto.com/id/1487031092/vector/chatbot-3.jpg?s=612x612&w=0&k=20&c=dJHi_o66SVV5qL8PifjHuo3rrL9e3Eh4Hc2YxRGAfWM=" alt="" class="card-img-top">
+                                            <div class="card-body">
+                                                <h3 class="text-center">AI&DS Engineering</h3>
+                                                <hr class="mx-auto w-75">
+                                                <p>
+                                                    Well equipped, and spacious laboratories.
+                                                    Departmental Level Students Association - MESA.
+                                                    Full-fledged laboratory for SAE BAJA and SAE TIFAN, vehicles designing and manufacturing.
+                                                    E-yantra laboratory for innovative idea projects.
+                                                    Regular Expert talks, Value Addition Programs and Project based learning.
+                                                    Professional Student Chapters of ISHRAE, IE and SAE.
+                                                    Exclusive Departmental Library
+                                                    Regular Site visits / Industrial visits/Workshops
+                                                    High level of involvement in NPTEL/Coursera/MOOCS courses.
+                                                    High end computer systems for CAD CAM laboratory ratio – 1:1
+                                                    Moodle e-learning facility.
+                                                    Center of Virtual Lab, IIT Bombay.
+                                                    Industry projects through GIZ & Lean Manufacturing.
+                                                    xclusive Departmental Library
+                                                    Regular Site visits / Industrial visits/Workshops
+                                                    High level of involvement in NPTEL/Coursera/MOOCS courses.
+                                                    High end computer systems for CAD CAM laboratory ratio – 1:1
+                                                    Moodle e-learning facility.
+                                                    Center of Virtual Lab, IIT Bombay.
+                                                    Industry projects through GIZ & Lean Manufacturin
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <!-- card ends here -->
+                                    </div>
+                                    <!-- col ends here -->
+                                    <div class="col-12 col-sm-6 col-md-3 m-auto">
+                                        <!-- card starts here -->
+                                        <div class="card shadow">
+                                            <img src="https://static.vecteezy.com/system/resources/previews/006/946/054/non_2x/engineer-controlling-big-robot-with-remote-technology-remotely-operated-robots-robot-control-system-manipulation-robotic-system-concept-vector.jpg" alt="" class="card-img-top">
+                                            <div class="card-body">
+                                                <h3 class="text-center">ECE Engineering</h3>
+                                                <hr class="mx-auto w-75">
+                                                <p>
+                                                    Adapt and implement software development life cycle.
+                                                    Learn emerging technology in Computer Science & Engineering.
+                                                    Understand personal and professional responsibilities and will observe.
+                                                    Promote the highest ethical standards.
+                                                    Pursue higher education and research.
+                                                    Solve the issues using research based knowledge.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <!-- card ends here -->
+                                    </div>
+                                    
+                        
+                
+    
+
+    
+        <!-- Option 1: Bootstrap Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+            crossorigin="anonymous"></script>
+    
+
+    
+            <footer> 
+                <div class="section__container footer__container">
+                    <div class="footer__col">
+                        <h3>CSMSS College of Engineering <span></span></h3>
+                    </div>
+                    <div class="footer__col">
+                        <h4>Support</h4>
+                        <p>FAQs</p>
+                        <p>Terms & Conditions</p>
+                        <p>Privacy Policy</p>
+                        <a href="contact.html">Contact us</a>
+                    </div>
+                    <div class="footer__col">
+                        <h4>Address</h4>
+                        <p><span>Address:</span>CSMSS Chh.Shahu College of Engineering,
+                            Kanchanwadi, Paithan Road,
+                            Chhatrapati Sambhajinagar (Aurangabad), MS, India – 431 002.</p>
+                        <p><span>Email:</span> csmssengg.com</p>
+                        <p><span>Phone:</span> +91 9876543210</p>
+                    </div>
+                    <div class="footer__col">
+                        <h4>Location</h4>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3753.2269599543943!2d75.2844389752583!3d19.83034752785838!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdb992248543c4d%3A0xb43d5f8035ac42b3!2sCSMSS%2C%20Chhatrapati%20Shahu%20College%20Of%20Engineering%2C%20Chatrapati%20Sambhajinagar!5e0!3m2!1sen!2sin!4v1717259421581!5m2!1sen!2sin" width="350" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <div class="footer__col social-media">
+                        <h4>Follow Us On</h4>
+                        <a href="https://www.facebook.com/csmssengg" class="social-icon"><i class="fa-brands fa-facebook-f"></i> Facebook </a>
+                        <a href="https://x.com/i/flow/login?redirect_after_login=%2Fchh_of" class="social-icon"><i class="fa-brands fa-twitter"></i> Twitter </a>
+                        <a href="https://www.instagram.com/csmssofficial/" class="social-icon"><i class="fa-brands fa-instagram"></i> Instagram </a>
+                        <a href="https://www.linkedin.com/school/csmss-chh.-shahu-college-of-engineering/posts/?feedView=all" class="social-icon"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+                    </div>
+                </div>
+                <div class="footer__bar">
+                    Made with <i class="fa-solid fa-heart fa-beat" style="--fa-animation-duration: 0.5s;"></i> by Vedanti
+                </div>  
+            </footer>
+            
+            
+        
+        
+        
+    
+</body>
+</html>

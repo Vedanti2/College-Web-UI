@@ -37,10 +37,6 @@ This project was built to:
 
 ---
 
-## 🤝 Contributors
-- **Vedanti Pallawe** – UI Design & Frontend Development
-
----
 
 ## 🚀 Future Enhancements
 - Add backend integration

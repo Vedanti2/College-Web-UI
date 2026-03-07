@@ -47,3 +47,4 @@ This project was built to:
 ---
 
 ✨ *Designed with simplicity, structure, and usability in mind.*
+
